@@ -4,57 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Julia's Site</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Meet Julia Schneider</title>
   </head>
   <body>
     <header>
-      <h1>Julia Schneider</h1>
-      <nav>
-        <a href="#contact">Contact</a>
-        <a href="#biography">Biography</a>
-        <a href="#cv">CV</a>
+      <h1>Meeting Julia Schneider</h1>
+      <nav class="navigation">
+        <a class="button" href="#interests">Interests</a>
+        <a class="button" href="#skills">Skills</a>
+        <a class="button" href="#experience">Experience</a>
+        <a class="button" href="#contact">Contact</a>
+        <a class="button" href="#biography">Biography</a>
+        <a class="button" href="#cv">CV</a>
       </nav>
     </header>
     <main>
       <figure>
         <img
+          class="profile"
           src="images/416-4167040_pebbles-flintstone-crying-pebbles-flintstone-hd-png-download.png"
           alt=""
         />
-        <figcaption>Sommer 2002</figcaption>
+        <figcaption>Photo: private</figcaption>
       </figure>
-      <section>
-        <h2>Experience</h2>
-        <ul>
-          <li>Web Developer</li>
-          <li>Horticulture</li>
-          <li>Sales Management</li>
-          <li>Shopkeeper</li>
-          <li>Nonmedical Practitioner</li>
+      <section id="interests">
+        <h2>Interests</h2>
+        <ul class="flex">
+          <li>arts and crafts</li>
+          <li>hiking</li>
+          <li>coding</li>
+          <li>nature</li>
+          <li>sustainable living</li>
+          <li>Ayurveda</li>
         </ul>
       </section>
-      <section>
+      </section>
+
+      <section id="skills">
         <h2>Skills</h2>
-        <ul>
+        <ul class="flex">
           <li>organizing ability</li>
           <li>communication capabilities</li>
           <li>"social glue"</li>
           <li>positivity</li>
         </ul>
       </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul class="flex">
+          <li>Web Developer</li>
+          <li>Horticulture</li>
+          <li>Sales Management</li>
+          <li>Shopkeeper</li>
+          <li>Nonmedical Practitioner</li>         
+        </ul>
+        <p class="center">Want to read more? Visit <a href="#cv">CV</a></p>
+      </section>
       <section id="contact">
-        Contact
+        <h2>Contact</h2>
         <address>Phone: +12345/67890 Email: julia@neuefische.de</address>
       </section>
       <section id="biography">
-        Biography
+        <h2>Biography</h2>
         <p>
-          Mein Lebensmotto: "Wer will findet Wege, wer nicht will findet
-          Gründe". Ich mag es Wege zu finden, je nach Kontext für mich selbst
-          oder Kunden, im Team oder im privaten Bereich.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos minus facilis iusto suscipit nulla? Voluptatibus delectus assumenda illum blanditiis a porro odio molestiae necessitatibus nesciunt modi. Commodi, quisquam iusto.
         </p>
       </section>
-      <section id="cv">CV</section>
+      <section id="cv">
+        <h2>CV</h2>
+      </section>
     </main>
   </body>
 </html>
