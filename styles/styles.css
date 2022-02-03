@@ -5,15 +5,17 @@
   box-sizing: border-box;
 }
 html {
-  background-color: seashell;
+ background-color: saddlebrown;
 }
 body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
   padding: 30px;
-  margin: 50px;
   background-color: saddlebrown;
   border-radius: 10px;
+}
+h1 {
+  color: seashell;
 }
 section {
   background-color: rgb(241, 222, 180);
@@ -21,6 +23,13 @@ section {
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
   margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: saddlebrown;
+}
+a:hover {
+  color: chocolate;
 }
 h2 {
   margin: 0px;
@@ -33,7 +42,36 @@ p {
   font-weight: 400;
   font-size: 1.2rem;
 }
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: seashell;
+  padding: 20px;
+  border-radius: 10px;
+}
 
-.special-font {
-  font-family: "Dancing Script", serif;
+.button {
+  background-color: seashell;
+  padding: 20px;
+  color: saddlebrown;
+  font-weight: 600;
+}
+.button:hover {
+  color: chocolate;
+}
+
+.profile {
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 15px;
+  gap: 15px;
+}
+.center {
+  text-align: center;
 }
