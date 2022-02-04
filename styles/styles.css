@@ -72,6 +72,17 @@ span {
 }
 
 .profile {
+  border-radius: 100%;
+  border: 1px solid saddlebrown;
+  box-shadow: 8px 8px 3px rgba(46, 23, 6, 0.2);
+  width: 100%;
+}
+figcaption {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  color: seashell;
+  font-weight: 1rem;
 }
 
 .flex {
