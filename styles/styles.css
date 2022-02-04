@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 html {
- background-color: saddlebrown;
+  background-color: saddlebrown;
 }
 body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
@@ -31,6 +31,8 @@ a {
 a:hover {
   color: chocolate;
 }
+h1 {
+}
 h2 {
   margin: 0px;
 }
@@ -42,7 +44,7 @@ p {
   font-weight: 400;
   font-size: 1.2rem;
 }
-nav {
+.navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
