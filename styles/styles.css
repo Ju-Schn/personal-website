@@ -109,3 +109,11 @@ span {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
+.table {
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  border-spacing: 15px;
+}
