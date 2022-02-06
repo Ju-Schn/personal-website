@@ -109,11 +109,24 @@ span {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
-.table {
+.cv {
   padding: 10px;
+  border-spacing: 15px;
+}
+.socials {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  gap: 15px;
-  border-spacing: 15px;
+  justify-content: center;
+}
+.icon-circle {
+  border-radius: 100%;
+}
+.icon-angled {
+  border-radius: 10px;
+}
+.icon-circle:hover {
+  background-color: rgb(156, 92, 46);
+}
+.icon-angled:hover {
+  background-color: rgb(156, 92, 46);
 }
