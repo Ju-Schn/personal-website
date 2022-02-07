@@ -1,0 +1,20 @@
+.header {
+  font-weight: 400;
+  color: seashell;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__picture {
+  border-radius: 50%;
+  border: 1px solid saddlebrown;
+  box-shadow: 8px 8px 3px rgba(46, 23, 6, 0.2);
+  width: 100%;
+}
+
+.header__picture--caption {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  color: seashell;
+}

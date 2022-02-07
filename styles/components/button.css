@@ -1,0 +1,28 @@
+.button--size {
+  width: 100px;
+  height: auto;
+}
+
+.button--round {
+  border-radius: 50%;
+}
+
+.button--angled {
+  border-radius: 10px;
+}
+
+.button--round:hover,
+.button--angled:hover {
+  background-color: rgb(156, 92, 46);
+}
+
+.button--to-top {
+  height: 50px;
+  border: 1px solid rgb(156, 92, 46);
+  border-radius: 50%;
+}
+
+.button--to-top--position {
+  display: block;
+  text-align: right;
+}
