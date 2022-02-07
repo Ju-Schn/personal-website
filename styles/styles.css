@@ -130,3 +130,12 @@ span {
 .icon-angled:hover {
   background-color: rgb(156, 92, 46);
 }
+.up {
+  height: 50px;
+  border: 1px solid rgb(156, 92, 46);
+  border-radius: 100%;
+}
+.up-top {
+  display: block;
+  text-align: right;
+}
