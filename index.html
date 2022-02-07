@@ -10,9 +10,10 @@
   </head>
   <body>
     <header>
-      <h1 class="head" id="#top">Get to know...</h1>
-      <h1 class="head">Julia Schneider</h1>
-      <nav class="navigation">
+      <h1 class="header" id="#top">
+        <span>Get to know...</span> <span>Julia Schneider</span>
+      </h1>
+      <nav class="box-styling list navigation">
         <a class="button" href="#interests">Interests</a>
         <a class="button" href="#skills">Skills</a>
         <a class="button" href="#experience">Experience</a>
@@ -25,18 +26,18 @@
     <main>
       <figure>
         <img
-          class="profile"
+          class="profile-picture"
           src="images/416-4167040_pebbles-flintstone-crying-pebbles-flintstone-hd-png-download.png"
           alt=""
         />
 
-        <figcaption class="profpic">Photo: private</figcaption>
+        <figcaption class="profile-pic-caption">Photo: private</figcaption>
       </figure>
-      <section>
+      <section class="box-styling">
         <h2>About me</h2>
-        <section class="am" id="interests">
+        <section class="box-styling background-light" id="interests">
           <h3>Interests</h3>
-          <ul class="flex">
+          <ul role="list" class="list">
             <li>arts and crafts</li>
             <li>hiking</li>
             <li>coding</li>
@@ -45,42 +46,45 @@
             <li>Ayurveda</li>
           </ul>
         </section>
-        <section class="am" id="skills">
+        <section class="box-styling background-light" id="skills">
           <h3>Skills</h3>
-          <ul class="flex">
+          <ul role="list" class="list">
             <li>organizing ability</li>
             <li>communication capabilities</li>
             <li>"social glue"</li>
             <li>positivity</li>
           </ul>
         </section>
-        <section class="am" id="experience">
+        <section class="box-styling background-light" id="experience">
           <h3>Experience</h3>
-          <ul class="flex">
+          <ul role="list" class="list">
             <li>Web Developer</li>
             <li>Horticulture</li>
             <li>Sales Management</li>
             <li>Shopkeeper</li>
             <li>Nonmedical Practitioner</li>
           </ul>
-          <div class="center">
+          <span class="center">
             Want to read more? Visit <a href="#cv">CV</a>
-          </div>
+          </span>
         </section>
-        <div class="up-top">
+        <div class="go-to-top-position">
           <a href="#"
-            ><img class="up" src="./images/nach-oben.png" alt="nach oben"
+            ><img
+              class="go-to-top-icon"
+              src="./images/nach-oben.png"
+              alt="go-to-top"
           /></a>
         </div>
       </section>
-      <section id="contact">
+      <section class="box-styling" id="contact">
         <h2>Contact</h2>
         <address class="address">
           <span>Phone:<a href="tel:#"> (123) 456789</a></span>
           <span>Email:<a href="mailto:#"> julia@neuefische.de</a></span>
         </address>
       </section>
-      <section id="biography">
+      <section class="box-styling" id="biography">
         <h2>Biography</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
@@ -89,24 +93,30 @@
           Aperiam, saepe expedita!
         </p>
       </section>
-      <section id="follow-me-on">
+      <section class="box-styling" id="follow-me-on">
         <h2>Follow me on</h2>
-        <section class="socials am">
+        <section class="socials list box-styling background-light">
           <a href="#" target="_blank"
             ><img
-              class="icon-angled"
+              class="icon-angled icon-size"
               src="./images/linked-in.png"
               alt="Linkedin"
           /></a>
           <a href="https://github.com/Ju-Schn" target="_blank"
-            ><img class="icon-circle" src="./images/github.png" alt="GitHub"
+            ><img
+              class="icon-circle icon-size"
+              src="./images/github.png"
+              alt="GitHub"
           /></a>
           <a href="#" target="_blank"
-            ><img class="icon-angled" src="./images/xing.png" alt="Xing"
+            ><img
+              class="icon-angled icon-size"
+              src="./images/xing.png"
+              alt="Xing"
           /></a>
         </section>
       </section>
-      <section id="cv">
+      <section class="box-styling" id="cv">
         <h2>CV</h2>
         <table class="cv">
           <tr>
