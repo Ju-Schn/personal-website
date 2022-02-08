@@ -1,0 +1,10 @@
+.button--to-top {
+  height: 50px;
+  border: 1px solid rgb(156, 92, 46);
+  border-radius: 50%;
+}
+
+.button--to-top--position {
+  display: block;
+  text-align: right;
+}
