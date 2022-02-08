@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
 @import url(./base.css);
-@import url(./components/link.css);
 @import url(./components/header.css);
 @import url(./components/navigation.css);
-@import url(./components/section.css);
+@import url(./components/card.css);
 @import url(./components/button.css);
-@import url(./components/table.css);
 @import url(./utility.css);
